@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://pixnio.com/free-images/2017/08/20/2017-08-20-09-58-15.jpg); 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator-container {
+    background-color: #f0f8ff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+h1 {
+    color:darkturquoise
+}
+h4 {
+    color:darkturquoise
+}
+
+.input-container {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: #008080;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #008080;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+button {
+    background-color: #20b2aa;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #008080;
+}
+
+.result-container {
+    margin-top: 10px;
+}
+
+p {
+    margin: 0;
+    color: #de8fc9;
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+    color: #007bff;
+}
